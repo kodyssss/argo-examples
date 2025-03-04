@@ -1,5 +1,5 @@
 bases:
-- ../../base
+- kustom-webapp/base
 
 patches:
 - path: replicas.yaml
