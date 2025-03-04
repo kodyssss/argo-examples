@@ -9,6 +9,7 @@ spec:
       containers:
       - name: mycontainer
         image: "devopsjourney1/mywebapp:latest"
+        imagePullPolicy: ifNotPresent
         ports:
         - containerPort: 80
         envFrom:
